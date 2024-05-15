@@ -25,5 +25,5 @@ weight:float = pyip.inputFloat('請輸入體重(40~170)(kg): ', min=40, max=170)
 bmi:float = calc_bmi(height, weight)
 status:str = get_status(bmi)
 
-print(f'{name}, 您的BMI: {bmi:.2f}')
+print(f'\n{name}, 您的BMI: \n{bmi:.2f}')
 print(f'您的體重: {status}')
